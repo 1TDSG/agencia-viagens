@@ -1,0 +1,26 @@
+body{
+  background-color: #e6e6e6;
+}
+
+h1{
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+}
+
+.conteudo{
+    /*height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+  margin-left: 115px;
+  margin-top: 130px;
+}
+
+.caixa {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 40px;
+  list-style: none;
+  padding:0;
+  margin: 10px;
+}
