@@ -1,0 +1,43 @@
+.conteudo{
+  column-rule-width: 50px;
+  column-count: 4;
+}
+.caixa{
+  background-color: #fff;
+  border-radius: 50px;
+  width: 300px;
+}
+.caixa img{
+width: 300px;
+}
+.frase{
+  font-family: "Arial";
+}
+.caixa p{
+  padding-left: 5px;
+  font-family: "Arial";
+}
+.titulos{
+  padding-left: 5px;
+  font-family: "Arial";
+  color: blue;
+}
+.bagagem{
+  text-align: center;
+  padding-left: 5px;
+  border: 1px solid #eee;
+}
+.companhia{
+  padding-left: 5px;
+  font-weight: bold;
+}
+.preco{
+  padding-left: 5px;
+  font-weight: bold;
+}
+.valor{
+  padding-top: 0px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
