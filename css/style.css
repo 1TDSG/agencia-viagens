@@ -8,10 +8,15 @@ Importamos e depois usamos a regra que ele explica: "font-family: 'Quicksand', s
 .caixa{
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(123, 172, 165);
 }
 
 h1, h2, h3{
     font-family: 'PT Sans Narrow', sans-serif;
     margin: 1opx 10px;
+}
+
+p{
+    margin: 10px 0;
+    padding: 5px 10px;
 }
