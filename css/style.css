@@ -5,10 +5,10 @@ Importamos e depois usamos a regra que ele explica: "font-family: 'Quicksand', s
 */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
-.caixa{
+.container{
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
-    background-color: rgb(123, 172, 165);
+    background-color: rgb(215, 217, 228);
 }
 
 h1, h2, h3{
@@ -19,4 +19,53 @@ h1, h2, h3{
 p{
     margin: 10px 0;
     padding: 5px 10px;
+}
+.conteudo{
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+}
+img{
+    width: 100%;
+}
+
+.frase{
+    margin: 10px 90px;
+}
+
+.caixa:hover{
+    background-color: rgb(229, 238, 241);
+}
+
+.titulos{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(54 ,77, 175);
+}
+/* " em é uma medida que equivale a 16px */
+.compania{
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+.bagagem{
+    border: 1px solid #eee;
+    width: 200px;
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.preco{
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+.valor{
+    font-size: 2em;
+    color: #333333;
 }
