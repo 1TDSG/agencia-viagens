@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
-/*Import de Fonte Google*/
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-
+/*Import de font do Google*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 .container{
 	font-size: 16px;
-	font-family:'Quicksand', sans-serif;
-	background-color #eee;	
+	font-family: 'Quicksand', sans-serif;
+	background-color: #eee;
 }
-h1 h2 h3{
-	font family: 'PT Sans Narrow', sans-serif;
-	margin:10px 10px;
+
+h1, h2, h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin:10px 10px;	
 }
 
 p{
 	margin: 10px 0;
 	padding: 5px 10px;
-} 
+}
 
 .conteudo{
 	margin: 10px auto;
@@ -27,15 +27,25 @@ p{
 }
 
 img{
-	width: 30%;
+	width: 100%;	
 }
 
 .frase{
 	margin:10px 90px;
 }
 
+
+.caixa {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 15px;
+}
+
 .caixa:hover{
 	background: #DBF0F7;
+	transition: 0.5s;
 }
 
 .titulos{
@@ -47,7 +57,6 @@ img{
 .companhia{
 	font-size: 0.75em;
 	font-weight: 700;
-	
 }
 
 .bagagem{
@@ -56,8 +65,8 @@ img{
 	margin-left: 10px;
 	padding: 2px;
 	font-size: 0.75em;
-	bord-radius: 5px;
-	}
+	border-radius: 5px;
+}
 
 .preco{
 	padding-top: 20px;
@@ -67,6 +76,6 @@ img{
 }
 
 .valor{
-	font-size: 30px;
+	font-size:2em;
 	color:#333;
 }
