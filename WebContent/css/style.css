@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.container{
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #EEEEEE;
+}
+h1, h2, h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 10px 10px;
+}
+p{
+	margin: 10px 0px;
+	padding: 5px 10px;
+}
+.conteudo{
+	margin: 10px auto;
+	width: 90%;
+	padding: 10px;
+	display: flex;
+}
+img{
+	width: 100%;
+}
+.frase{
+	margin: 10px 90px;
+}
+.caixa:hover{
+	background-color: #DBF0F7;
+}
+.titulos{
+	font-size: 30px;
+	font-weight:700;
+	color: rgb(54,77,175);
+}
+.companhia{
+	font-size: 1em;
+	font-weight:700;
+}
+.bogagem{
+	border: 1px solid #eee;
+	width: 200px;
+	margin-left:10px;
+	padding: 2px;
+	font-size:0.75em;
+	border-radius: 1px;
+}
+.preco{
+	padding-top:20px;
+	border-top:1px solid #eee;
+	font-size: 0.85em;
+}
