@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Colando o import de font do google, pegamos ele de um site
+Importamos e depois usamos a regra que ele explica: "font-family: 'Quicksand', sans-serif;"
+*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.caixa{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(0, 183, 255);
+}
+
+h1, h2, h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 1opx 10px;
+}
