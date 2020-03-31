@@ -38,8 +38,18 @@ img{
 	margin:10px 90px;
 }
 
+
+.caixa {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 15px;
+}
+
 .caixa:hover{
 	background: #DBF0F7;
+	transition: 0.5s;
 }
 
 .titulos{
