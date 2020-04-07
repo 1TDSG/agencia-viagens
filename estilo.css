@@ -1,0 +1,74 @@
+body.container{
+    position: absolute;
+    background-color:white;
+    padding: 30px;
+
+}
+
+div.box{
+
+    background-color: #e5e2e2;
+    padding-bottom: 100px;
+}
+
+div.caixa {
+    /* display: block; */
+    display: inline-block;
+    list-style-position: inside;
+    margin:  10px;
+    background-color: white;
+    border-radius: 4%;
+    width: 180px;
+
+}
+
+div.caixa2{
+    display: inline-block;
+    background-color: rgb(209, 251, 237);
+    border-radius: 4%;
+    width: 180px;
+
+}
+
+h1   {
+    margin-left: 40px;
+    font-family: 'Angsana New','Calibri Light';
+}
+
+h2 {
+    color: rgb(92, 92, 235);
+    font-family: 'Angsana New','Calibri Light';
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+p {
+    font-family: 'Angsana New','Calibri Light';
+    margin-left: 5px;
+
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.bagagem {
+    font-size: smaller;
+    box-sizing: border-box;
+
+
+}
+
+.companhia {
+    font-weight: bold;
+
+}
+
+.preco{
+    font-weight: bold;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: xx-large;
+}
