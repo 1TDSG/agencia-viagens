@@ -1,0 +1,87 @@
+#body{
+  background-color: #DCDCDC;
+}
+
+#conteudo{
+  background-color: #DCDCDC;
+  padding-left: 34px;
+}
+
+.frase{
+  font-style: Arial;
+  padding-left: 130px;
+  font-size: 40px;
+}
+
+.caixa1{
+font-family: calibri;
+font-size: 14px;
+display: inline-block;
+border-radius: 20px;
+background-color: white;
+margin: 10px;
+padding: 0,5px;
+
+}
+
+.caixa2{
+  font-family: calibri;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #E6E6FA;
+  margin: 10px;
+  padding: 0,5px;
+}
+
+.caixa3{
+  font-family: calibri;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+  padding: 0,5px;
+}
+
+.caixa4{
+  font-family: Calibri;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  margin: 10px;
+  padding: 0,5px;
+}
+
+.texto{
+  margin: 10px;
+}
+
+.titulos { color: #4169E1;
+  font-size:28px;
+
+}
+
+.bagagem{
+border: 0.1px solid;
+
+}
+
+.companhia{font-weight: bold;
+
+}
+.preco{font-weight: bold;
+
+}
+.valor {font-size: 30px;
+
+}
+
+p{font-size: 20px;
+
+}
+
+.frase{spacing: 10px;
+
+}
